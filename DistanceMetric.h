@@ -33,3 +33,5 @@ public:
     //   std::invalid_argument if points have different dimensions
     double compute(const Point<T>& a, const Point<T>& b) const override;
 };
+
+#include "DistanceMetric.ipp"

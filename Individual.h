@@ -43,3 +43,5 @@ public:
     //   data - reference to the dataset being clustered
     void update_centroids(const std::vector<Point<T>>& data);
 };
+
+#include "Individual.ipp"

@@ -10,5 +10,3 @@ double EuclideanDistance<T>::compute(const Point<T>& a, const Point<T>& b) const
     return std::sqrt(sum);
 }
 
-template class EuclideanDistance<double>;
-template class EuclideanDistance<int>;

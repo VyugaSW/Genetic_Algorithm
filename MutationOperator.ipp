@@ -24,7 +24,5 @@ void IntegerMutation<T>::mutate(Point<T>& point, std::mt19937& rng) {
     }
 }
 
-template class GaussianMutation<double>;
-template class IntegerMutation<int>;
 
 

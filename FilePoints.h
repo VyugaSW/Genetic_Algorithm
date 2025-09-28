@@ -25,3 +25,5 @@ class FilePoints {
                                       const std::string& filename,
                                       const double WCSS);
 };
+
+#include "FilePoints.ipp"

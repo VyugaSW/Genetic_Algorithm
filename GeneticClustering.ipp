@@ -245,6 +245,3 @@ void GeneticClustering<T>::mutate(Individual<T>& individual) {
         mutation_op->mutate(centroid, rng);
     }
 }
-
-template class GeneticClustering<double>;
-template class GeneticClustering<int>;

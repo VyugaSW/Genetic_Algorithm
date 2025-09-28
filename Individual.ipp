@@ -60,5 +60,3 @@ void Individual<T>::update_centroids(const std::vector<Point<T>>& data) {
     centroids = new_centroids;
 }
 
-template class Individual<double>;
-template class Individual<int>;

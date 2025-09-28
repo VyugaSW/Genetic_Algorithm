@@ -112,6 +112,3 @@ void FilePoints<T>::writeClustersWithLabels(const std::vector<Point<T>>& points,
     out.close();
 }
 
-
-template class FilePoints<double>;
-template class FilePoints<int>;

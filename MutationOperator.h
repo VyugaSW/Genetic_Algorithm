@@ -1,3 +1,4 @@
+#pragma once
 #include <vector>
 #include <random>
 #include <memory>
@@ -54,3 +55,5 @@ public:
     // Adds uniform random integer in [-max_change, +max_change]
     void mutate(Point<T>& point, std::mt19937& rng) override;
 };
+
+#include "MutationOperator.ipp"

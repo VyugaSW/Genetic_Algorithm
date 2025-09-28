@@ -85,3 +85,5 @@ public:
 private:
     size_t current_generation = 0; // Tracks current generation number
 };
+
+#include "GeneticClustering.ipp"
